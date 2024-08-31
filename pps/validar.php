@@ -15,10 +15,11 @@ if ($filas) {
   header("location: home.php");
 } else {
   include("login_admin.php");
+  
 ?>
-  <h1 class="bad">ERROR EN LA AUTENTIFICACION</h1>
-  <h1>hola alex como va</h1>
-  <h1>hola cris</h1>
+<br>
+  <h4 class="bad">ERROR EN LA AUTENTIFICACION POR FAVOR VUELVA A INTENTARLO</h4>
+
 <?php
 }
 mysqli_free_result($resultado);
