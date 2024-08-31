@@ -1,1 +1,1 @@
-<h1>Bienvenido!</h1>
+<?php include('heater.php')?>
