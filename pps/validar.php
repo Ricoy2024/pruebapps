@@ -17,6 +17,7 @@ if ($filas) {
   include("login_admin.php");
 ?>
   <h1 class="bad">ERROR EN LA AUTENTIFICACION</h1>
+  <h1>hola alex como va</h1>
 <?php
 }
 mysqli_free_result($resultado);
