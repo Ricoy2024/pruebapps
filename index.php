@@ -14,7 +14,7 @@
     <p>Contrasena <input type="password" placeholder="Ingrese Ingrese su pass" name= "contrasena"></p>
     <input type="submit"value="Ingresar">
     </form>
-    <h1>hola lucas</h1>
+    <h1>hola lucas como estas</h1>
     
 </body>
 </html>
