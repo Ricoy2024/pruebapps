@@ -15,10 +15,10 @@
     <input type="submit"value="Ingresar">
     </form>
     <h1>hola lucas</h1>
-    <h1>todo bien?</h1>
-    <h1>todo bien?</h1>
+ 
     <h1>todo bien?</h1>
     <h1>que pasa luuuuuuu</h1>
+    <h1>ya anda!</h1>
     
 </body>
 </html>
