@@ -25,13 +25,13 @@
                     <a href="login_admin.php" class="nav-item">Login</a>
                 </li>
                 <li>
-                    <a href="index.php" class="nav-item">Shop</a>
+                    <a href="index.php" class="nav-item">Inicio</a>
                 </li>
                 <li>
-                    <a href="public/view/contact/contacto.php" class="nav-item">Contact</a>
+                    <a href="public/view/contact/contacto.php" class="nav-item">Contacto</a>
                 </li>
                 <li>
-                    <a href="home.php" class="nav-item">About</a>
+                    <a href="home.php" class="nav-item">home</a>
                 </li>
             </ul>
         </nav>

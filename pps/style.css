@@ -4,11 +4,11 @@
     font-family:"poppins";
 }
 .bg-dark{ /* vamos  a utilizarlo de color para el heather y footer dice dark pero seria orange*/
-    background-color:#ed8505;
+    background-color:#636262;
 }
 
-.bg-drak2{ /* vamos  a utilizarlo de color para el heather y footer dice dark pero seria orange*/
-    background-color:#cd8d3e;
+.bg-drak2{ /* vamos  a utilizarlo de color para el body dice dark pero seria orange f0e7db*/
+    background-color:#f0e7db;
 }
 /* color del header*/
 header{ 
@@ -96,7 +96,7 @@ position: relative;
 }
 
 .text-muted{
-    color:#ccc;
+    color:#d1b7b7;
 }
 
 .fs-2{
@@ -128,8 +128,8 @@ position: relative;
     text-align: center;
 }
 
-.text-grey-500{
-    color:#9f999a;
+.text-grey-500{             /* abria q cambiar el color y tmb el nombre de la clase, para q lo tome*/
+    color:#2200bb;
     
 }
 
@@ -154,16 +154,18 @@ position: relative;
 }
 
 .ion-icon{
-    background-color:#0b0f19;
+    background-color:#0b0f19; 
     color: white;
-    width: 80px;
+    width: 80px;             /* fondo de los iconos */
     height: 80px;
     border-radius: 50%;
     
 }
 .ion-icon ion-icon{
-    font-size: 1.7rem;
+    font-size: 2.5rem; /* tamaño de los iconos*/
 }
+
+
 
 .px-10{
     padding-left: 10rem;
