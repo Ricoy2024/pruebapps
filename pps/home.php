@@ -1,7 +1,3 @@
-<?php include('heater.php')?>
+<?php include('public/view/layout/header.php')?>
 
 
-<div class="text-center ">
-pagina en proceso
-
-</div>
