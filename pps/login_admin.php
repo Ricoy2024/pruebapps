@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<br> <br> <br> <br> <br><br>
+
   <div class="text-center ">
+  <section class="section-3">
+  <br> <br> <br> <br> <br> 
     <form action="validar.php" method="post">
         <h1> inicio de sesion </h1> 
         <p>Usuario <input type="text" placeholder="Ingrese su usuario" name="usuario"></p>
@@ -41,6 +43,7 @@
 -->
 
     </form>
+    </section>
     </div>
     
 </body>

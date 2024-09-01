@@ -76,6 +76,15 @@ background-position: center;
 position: relative;
 
 }
+.section-3{
+    height: 550px;
+    opacity: 1;
+    background-image:url(./public/imagen/prueba-formulario.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    }
 
 .content-1{
     height: 100%;
