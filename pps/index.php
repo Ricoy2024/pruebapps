@@ -11,6 +11,7 @@
       <section class="section-2 py-3">
         <div class="container">
             <h1 class="fs-1 text-center  mb-1">Un poco de nosotros!</h1>
+        
             <div class="text-center text-grey-500 mb-3 px-10 px-md-5 px-md-0 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore vitae aliquid alias magni quis deserunt officia sed eos sunt sequi.</div>
 
             <div class="d-flex justify-content-between " style="flex-wrap: wrap;">

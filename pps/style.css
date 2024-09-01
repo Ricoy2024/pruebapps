@@ -70,7 +70,7 @@ nav ul {
 
 .section-1{
 height: 500px;
-background-image:url(./imagen/background.jpg);
+background-image:url(./public/imagen/background.jpg);
 background-size: cover;
 background-position: center;
 position: relative;
