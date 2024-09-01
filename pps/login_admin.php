@@ -23,7 +23,7 @@
         <input class="btn" type="submit" value="Ingresar">
         <br>
         <br>
-        <a href=""> Registrarse</a>
+        <a href="registrarse.php"> Registrarse</a>
         <br>
         <a href=""> Olvide mi contraseña</a>
         <br> <br> <br> <br> <br> <br> <br> 

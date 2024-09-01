@@ -22,16 +22,17 @@
         <nav>
             <ul class="d-flex">
                 <li>
-                    <a href="login_admin.php" class="nav-item">Login</a>
-                </li>
-                <li>
                     <a href="index.php" class="nav-item">Inicio</a>
                 </li>
                 <li>
-                    <a href="contacto.php" class="nav-item">Contacto</a>
+                     <a href="login_admin.php" class="nav-item">Login</a>
                 </li>
                 <li>
-                    <a href="home2.php" class="nav-item">Home</a>
+                     <a href="registrarse.php" class="nav-item">Registrarse</a>
+                </li>
+                <li>
+                    <a href="contacto.php" class="nav-item">Contacto</a>
+                    
                 </li>
             </ul>
         </nav>

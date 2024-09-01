@@ -18,7 +18,10 @@ header{
 
 .d-flex{
     display: flex;
+}
 
+.flex-direcion-column{
+    flex-direction: column;
 }
 
 .display-colum{
@@ -131,11 +134,14 @@ position: relative;
 .py-3{
     padding-top: 3rem;
     padding-bottom: 3rem;
-
 }
 
 .text-center{
     text-align: center;
+}
+
+.p-1{
+    padding: 1rem;
 }
 
 .text-grey-500{             /* abria q cambiar el color y tmb el nombre de la clase, para q lo tome*/
@@ -242,5 +248,22 @@ position: relative;
     background-color: #7cbdd0cf;
     color: white;
 
+}
+
+.form-control{ /* para dejar espacio en los costados del los formularios*/
+
+padding: 0.3rem 0.7rem;
+width: 20%;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+label{
+  width: 100px;
+  font-size: 0.9rem;
+}
+
+.align-item-center{
+    align-items: center;
 }
 

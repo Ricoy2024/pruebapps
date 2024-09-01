@@ -21,17 +21,13 @@
          </section>
               <br>
               <h2>Acerca de nosotros</h> 
-              
               <br>
               <h4>Domicilio: Calle falsa 123</h4>
 
-            
               <h4>Localidad: Lomas de Zamora</h4>
-              
-             
+            
               <h4>Telefono: 11-2233-4455</h4>
           
-             
               <h4>Correo electronico: <a  href="#" id="contact">lubricentrovintaje76@gmail.com</a> </h4> 
 
               <h4 class="text-center" href="#" >Abierto de: Lunes a Viernes 9:00 a 12:00 y 14:30 a 18:00 - Sabado 9:00 a 12:00</h4>
