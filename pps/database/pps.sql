@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 31-08-2024 a las 03:49:00
+-- Tiempo de generación: 01-09-2024 a las 23:01:17
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -43,6 +43,22 @@ INSERT INTO `tb_admin` (`id`, `usuario`, `dni`, `contraseña`, `mail`) VALUES
 (1, 'lucas', 36945910, 'Lu1234', 'lucasmaximilianoolivieri@gmail.com'),
 (5, 'prueba', 123456, '123456', 'prueba@gmail.com');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tb_cliente`
+--
+
+CREATE TABLE `tb_cliente` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `apellido` varchar(50) NOT NULL,
+  `telefono` int(20) NOT NULL,
+  `mail` varchar(50) NOT NULL,
+  `pass` int(20) NOT NULL,
+  `usuario` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 --
 -- Índices para tablas volcadas
 --
@@ -54,6 +70,12 @@ ALTER TABLE `tb_admin`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `tb_cliente`
+--
+ALTER TABLE `tb_cliente`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -62,6 +84,12 @@ ALTER TABLE `tb_admin`
 --
 ALTER TABLE `tb_admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT de la tabla `tb_cliente`
+--
+ALTER TABLE `tb_cliente`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
