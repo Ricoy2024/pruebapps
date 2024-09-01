@@ -28,7 +28,7 @@
             <label class="d-flex align-item-center" for="">fecha de nacimiento</label>
             <input class="form-control" id="fecha" type="date" >
         </div>
-        <button type="submit">Enviar</button>
+        <button class="btn " type="submit">Enviar</button>
        </form> 
        <div class="table-content">
 
