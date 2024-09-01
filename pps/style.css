@@ -247,6 +247,7 @@ position: relative;
     padding: 0.6rem 1.5rem;
     background-color: #7cbdd0cf;
     color: white;
+ 
 
 }
 
@@ -274,3 +275,18 @@ label{
     align-items: center;
 }
 
+.card{
+    display: flex;
+    border: 1px solid #0f0d0d;
+    border-radius: 5px;
+
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+table{
+    width: 100%;
+    border: 1px solid #0f0d0d;
+}
