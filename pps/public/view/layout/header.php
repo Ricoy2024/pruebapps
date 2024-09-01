@@ -25,7 +25,7 @@
                     <a href="login_admin.php" class="nav-item">Login</a>
                 </li>
                 <li>
-                    <a href="prueba.php" class="nav-item">Shop</a>
+                    <a href="index.php" class="nav-item">Shop</a>
                 </li>
                 <li>
                     <a href="index.php" class="nav-item">Contact</a>
