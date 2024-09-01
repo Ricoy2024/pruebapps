@@ -25,10 +25,10 @@
                     <a href="login_admin.php" class="nav-item">Login</a>
                 </li>
                 <li>
-                    <a href="public/view/contact/contacto.php" class="nav-item">Shop</a>
+                    <a href="index.php" class="nav-item">Shop</a>
                 </li>
                 <li>
-                    <a href="index.php" class="nav-item">Contact</a>
+                    <a href="public/view/contact/contacto.php" class="nav-item">Contact</a>
                 </li>
                 <li>
                     <a href="home.php" class="nav-item">About</a>
