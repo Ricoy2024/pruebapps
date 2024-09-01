@@ -237,3 +237,10 @@ position: relative;
     }
 }
 
+.btn{  /* boton*/
+    padding: 0.6rem 1.5rem;
+    background-color: #7cbdd0cf;
+    color: white;
+
+}
+

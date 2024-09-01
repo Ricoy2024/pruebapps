@@ -31,7 +31,7 @@
                     <a href="contacto.php" class="nav-item">Contacto</a>
                 </li>
                 <li>
-                    <a href="home.php" class="nav-item">Home</a>
+                    <a href="home2.php" class="nav-item">Home</a>
                 </li>
             </ul>
         </nav>

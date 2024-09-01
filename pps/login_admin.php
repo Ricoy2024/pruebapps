@@ -20,7 +20,7 @@
         <p>Contraseña <input type="password" placeholder="Ingrese su pass" name="dni"></p>
         
         <br>
-        <input type="submit" value="Ingresar">
+        <input class="btn" type="submit" value="Ingresar">
         <br>
         <br>
         <a href=""> Registrarse</a>
