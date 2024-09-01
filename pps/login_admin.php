@@ -1,4 +1,4 @@
-<?php include('heater.php')?>
+<?php include('public/view/layout/header.php')?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<br> <br> <br> <br> <br><br>
   <div class="text-center ">
     <form action="validar.php" method="post">
         <h1> inicio de sesion </h1> 
@@ -22,6 +23,7 @@
         <a href=""> Registrarse</a>
         <br>
         <a href=""> Olvide mi contraseña</a>
+        <br> <br> <br> <br> <br> <br> <br> 
 <!--
         <div class="card " style="width: 18rem;">
         <br>
@@ -43,3 +45,4 @@
     
 </body>
 </html>
+<?php include('public/view/layout/footer.php')?>

@@ -17,7 +17,7 @@
     <div class="container d-flex justify-content-between align-center">
         <a class="logo d-flex align-center" href="" >
          Vintaje
-         <img class="w-60" src="./imagen/logo_vintaje.jpg" alt="">
+         <img class="w-60" src="./public/imagen/logo_vintaje76.png" alt="">
         </a>
         <nav>
             <ul class="d-flex">
@@ -40,6 +40,5 @@
 
     </header>
 
-   
 </body>
 </html>

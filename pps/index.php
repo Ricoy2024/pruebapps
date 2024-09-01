@@ -1,46 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lubricentro Vintaje 76</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="imagen/oip.ico" type="image/x-icon">
-    <!-- Es la imagen que muestra en la pestaña el navegador icono .-->
-
-</head>
-<body class="bg-drak2">
-    <header class="bg-dark">
-    <div class="container d-flex justify-content-between align-center">
-        <a class="logo d-flex align-center" href="" >
-         Vintaje
-         <img class="w-60" src="./imagen/logo_vintaje76.png" alt="">
-        </a>
-        <nav>
-            <ul class="d-flex">
-                <li>
-                    <a href="login_admin.php" class="nav-item">Home</a>
-                </li>
-                <li>
-                    <a href="" class="nav-item">Shop</a>
-                </li>
-                <li>
-                    <a href="" class="nav-item">Contact</a>
-                </li>
-                <li>
-                    <a href="" class="nav-item">About</a>
-                </li>
-            </ul>
-        </nav>
-
-    </div>
-
-    </header>
-
+<?php include('public/view/layout/header.php')?>
     <main>
         <section class="section-1">
             <div class="overlay"></div>
@@ -111,29 +69,5 @@
       </section>
     </main>
 <!-- de aca para abajo tendria q cortar para el footer-->
- <footer class="bg-dark">
-    <div class="container d-flex display-colum align-center py-3">
-             <!--container d-flex justify-content-between align-center-->
-    <img class="w-60 mb-2" src="./imagen/logo_vintaje76.png" alt="">
-            <div class="text-center text-grey-500 mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita assumenda quas minima culpa eum nobis.</div>
-            <ul class="mb-2 d-flex sistemap">
-                <li>
-                    <a class="text-white" href="">home</a>
-                </li>
-                <li>
-                    <a class="text-white" href="">shop</a>
-                </li>
-                <li>
-                    <a class="text-white" href="">contact</a>
-                </li>
-                <li>
-                    <a class="text-white" href="">about</a>
-                </li>
-            </ul>
-            <small class="text-grey-500"> °Derechos reversados del lubricentro Vintaje 76 :)</small>
-            </div>
- </footer>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-</html>
+
+<?php include('public/view/layout/footer.php')?>
