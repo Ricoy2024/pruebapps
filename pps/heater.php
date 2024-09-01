@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,11 +12,12 @@
     <!-- Es la imagen que muestra en la pestaña el navegador icono .-->
 
 </head>
-
-    <header>
+<body class="bg-drak2">
+    <header class="bg-dark">
     <div class="container d-flex justify-content-between align-center">
-        <a class="logo" href="" >
-         Vintaje 76
+        <a class="logo d-flex align-center" href="" >
+         Vintaje
+         <img class="w-60" src="./imagen/logo_vintaje.jpg" alt="">
         </a>
         <nav>
             <ul class="d-flex">
@@ -25,13 +25,13 @@
                     <a href="login_admin.php" class="nav-item">Home</a>
                 </li>
                 <li>
-                    <a href="" class="nav-item">Shop</a>
+                    <a href="index.php" class="nav-item">Shop</a>
                 </li>
                 <li>
-                    <a href="" class="nav-item">Contact</a>
+                    <a href="index.php" class="nav-item">Contact</a>
                 </li>
                 <li>
-                    <a href="" class="nav-item">About</a>
+                    <a href="index.php" class="nav-item">About</a>
                 </li>
             </ul>
         </nav>
@@ -40,5 +40,6 @@
 
     </header>
 
-    
+   
+</body>
 </html>

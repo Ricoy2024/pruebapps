@@ -18,7 +18,7 @@
     <div class="container d-flex justify-content-between align-center">
         <a class="logo d-flex align-center" href="" >
          Vintaje
-         <img class="w-60" src="./imagen/logo_vintaje.jpg" alt="">
+         <img class="w-60" src="./imagen/logo_vintaje76.png" alt="">
         </a>
         <nav>
             <ul class="d-flex">
@@ -113,8 +113,8 @@
 <!-- de aca para abajo tendria q cortar para el footer-->
  <footer class="bg-dark">
     <div class="container d-flex display-colum align-center py-3">
-                
-    <img class="w-60 mb-2" src="./imagen/logo_vintaje.jpg" alt="">
+             <!--container d-flex justify-content-between align-center-->
+    <img class="w-60 mb-2" src="./imagen/logo_vintaje76.png" alt="">
             <div class="text-center text-grey-500 mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita assumenda quas minima culpa eum nobis.</div>
             <ul class="mb-2 d-flex sistemap">
                 <li>

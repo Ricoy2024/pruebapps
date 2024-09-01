@@ -3,12 +3,12 @@
     padding: 0;
     font-family:"poppins";
 }
-.bg-dark{ /* vamos  a utilizarlo de color para el heather y footer*/
-    background-color:#211c10;
+.bg-dark{ /* vamos  a utilizarlo de color para el heather y footer dice dark pero seria orange*/
+    background-color:#ed8505;
 }
 
-.bg-drak2{ /* vamos  a utilizarlo de color para el heather y footer*/
-    background-color:#363122;
+.bg-drak2{ /* vamos  a utilizarlo de color para el heather y footer dice dark pero seria orange*/
+    background-color:#cd8d3e;
 }
 /* color del header*/
 header{ 
@@ -102,7 +102,7 @@ position: relative;
     height: 100%;
     width: 100%;
     position: absolute;
-    background: linear-gradient(180deg,rgba(11,15,25,0.28)0%, rgba(11,15,25,0.48)100%);
+    background: linear-gradient(180deg,rgba(11,15,25,0.08)0%, rgba(11,15,25,0.18)100%);
 
 }
 .z-index{

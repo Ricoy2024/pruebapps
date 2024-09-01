@@ -18,7 +18,7 @@ if ($filas) {
   
 ?>
 <br>
-  <h4 class="bad">ERROR EN LA AUTENTIFICACION POR FAVOR VUELVA A INTENTARLO</h4>
+  <h3 class="bad text-center">ERROR EN LA AUTENTIFICACION POR FAVOR VUELVA A INTENTARLO</h3>
 
 <?php
 }
