@@ -5,3 +5,4 @@
 <br>
 <br>
 <h1 class="text-center">PAGINA EN CONSTRUCCION  = )</h1>
+<?php include('public/view/layout/footer.php')?>

@@ -250,10 +250,17 @@ position: relative;
 
 }
 
+.btn2{  /* boton*/
+    padding: 0.6rem 1.5rem;
+    background-color: #0ec53ccf;
+    color: rgb(94, 1, 9);
+
+}
+
 .form-control{ /* para dejar espacio en los costados del los formularios*/
 
 padding: 0.3rem 0.7rem;
-width: 20%;
+width: 50%;
 border-radius: 5px;
 border: 1px solid #ccc;
 }

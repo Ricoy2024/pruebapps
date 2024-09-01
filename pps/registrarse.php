@@ -21,18 +21,33 @@
             <input class="form-control" id="apellido" type="text" placeholder="ingresa su apellido">
         </div>
         <div class="input-group d-flex mb-1">
-            <label class="d-flex align-item-center" for="">Email</label>
-            <input class="form-control" id="email" type="text" placeholder="ingresa su Email">
+            <label class="d-flex align-item-center" for="">Telefono</label>
+            <input class="form-control" id="telefono" type="number" placeholder="ingresa su telefono">
         </div>
         <div class="input-group d-flex mb-1">
-            <label class="d-flex align-item-center" for="">fecha de nacimiento</label>
-            <input class="form-control" id="fecha" type="date" >
+            <label class="d-flex align-item-center" for="">Email</label>
+            <input class="form-control" id="email" type="email" placeholder="ingresa su Email">
         </div>
+        <div class="input-group d-flex mb-1">
+            <label class="d-flex align-item-center" for="">Usuario</label>
+            <input class="form-control" id="usuario" type="text" placeholder="ingresa su usuario">
+        </div>
+        <div class="input-group d-flex mb-1">
+            <label class="d-flex align-item-center" for="">pass</label>
+            <input class="form-control" id="pass" type="password" placeholder="ingresa su pass">
+        </div>
+
+
+
+        
         <button class="btn " type="submit">Enviar</button>
        </form> 
        <div class="table-content">
 
        </div>
     </div>
+
+
+   
 </body>
 </html>
