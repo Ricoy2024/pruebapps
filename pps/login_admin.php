@@ -13,7 +13,8 @@
   <section class="section-3">
   <br> <br> <br> <br> <br> 
     <form action="validar.php" method="post">
-        <h1> inicio de sesion </h1> 
+        <h1> INICIO DE SESION </h1> 
+        <br>
         <p>Usuario <input type="text" placeholder="Ingrese su usuario" name="usuario"></p>
         <br>
         <p>Contraseña <input type="password" placeholder="Ingrese su pass" name="dni"></p>

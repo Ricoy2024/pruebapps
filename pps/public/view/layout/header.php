@@ -28,10 +28,10 @@
                     <a href="index.php" class="nav-item">Inicio</a>
                 </li>
                 <li>
-                    <a href="public/view/contact/contacto.php" class="nav-item">Contacto</a>
+                    <a href="contacto.php" class="nav-item">Contacto</a>
                 </li>
                 <li>
-                    <a href="home.php" class="nav-item">home</a>
+                    <a href="home.php" class="nav-item">Home</a>
                 </li>
             </ul>
         </nav>
