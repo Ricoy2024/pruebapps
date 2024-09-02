@@ -256,6 +256,7 @@ position: relative;
     padding: 0.6rem 1.5rem;
     background-color: #7cbdd0cf;
     color: white;
+ 
 
 }
 
@@ -283,3 +284,58 @@ label{
     align-items: center;
 }
 
+.card{
+    display: flex;
+    border: 1px solid #0f0d0d;
+    border-radius: 5px;
+
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+table{
+    width: 100%;
+    border: 1px solid #0f0d0d;
+}
+.logo-text span{
+font-size: 2rem;
+letter-spacing: 8px;
+font-weight: 500;
+}
+
+.sidebar{
+    background-color: var(--bgligth);
+    width: 300px;
+    height: 100vh; /* para que ocupe elñ 100 % del largo de la pantalla*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding-left: 2rem;
+}
+
+span{
+    color: black;
+}
+
+:root{
+  --bgdark:  blue; 
+  --bgligth: #f1f1f1;
+}
+body{
+    background-color: var(--bgdark) ;
+}
+
+.menu ul li a{
+   font-size: 1.3rem; 
+}
+
+.nav-footer li a{
+    font-size: 1.3rem; 
+ }
+ 
+
+.menu ul li {
+    margin-bottom: 1.5rem;
+ }
