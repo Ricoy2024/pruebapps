@@ -1,14 +1,15 @@
 <?php
 $usuario = $_POST['usuario'];
-$dni = $_POST['dni'];
+$pass = $_POST['pass'];
 session_start();
 $_SESSION['usuario'] = $usuario;
 
 $conexion = mysqli_connect("localhost", "root", "", "pps");
 
-$consulta = "SELECT * FROM tb_admin where usuario='$usuario' and dni='$dni'";
+$consulta = "SELECT * FROM tb_cliente where usuario='$usuario' and pass='$pass'";
 $resultado = mysqli_query($conexion, $consulta);
 
+/* asi se comenta php <!-- --> asi cuando es html */
 $filas = mysqli_num_rows($resultado);
 
 if ($filas) {
@@ -17,12 +18,12 @@ if ($filas) {
   $_SESSION["apellido"]=$consulta->apellido;
   header("location: home.php");
 } else {
-  include("login_admin.php");
+  include("login_cliente.php");
   
 ?>
 <br>
 
-  <h3 class="bad text-center">ERROR EN LA AUTENTIFICACION POR FAVOR VUELVA A INTENTARLO</h3>
+  <h3 class="bad text-center">ERROR EN LA AUTENTIFICACION DEL CLIENTE POR FAVOR VUELVA A INTENTARLO</h3>
 
 <?php
 }

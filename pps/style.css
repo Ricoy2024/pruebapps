@@ -98,6 +98,15 @@ position: relative;
         position: relative;
         
         }
+        .section-5{
+            height: 350px;
+            opacity: 1;
+            background-image:url(./public/imagen/lubricentro_head.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            
+            }
 
 .content-1{
     height: 100%;
