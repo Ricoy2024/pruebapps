@@ -56,7 +56,7 @@ if (isset($_POST["registrar"])) {
             <form class="p-1" action="<?php echo $_SERVER["PHP_SELF"]; ?>" id="form" method="POST">
             <div class="input-group d-flex mb-1">
                 <label class="d-flex align-item-center" for="">Nombre</label>
-                <input class="form-control" name="nombre" type="text" placeholder="ingresa su nombre"required >
+                <input class="form-control" name="nombre" type="text" placeholder="ingresa su nombre" pattern="[A-Za-zÁÉÍÓÚáéíóúñÑüÜ\s]{2,}" required   >
             </div>
             <div class="input-group d-flex mb-1">
                 <label class="d-flex align-item-center" for="">Apellido</label>
@@ -72,7 +72,7 @@ if (isset($_POST["registrar"])) {
             </div>
             <div class="input-group d-flex mb-1">
                 <label class="d-flex align-item-center" for="">Usuario</label>
-                <input class="form-control" name="usuario" type="text" placeholder="ingresa su usuario"required>
+                <input class="form-control" name="usuario" type="text" placeholder="ingresa su usuario"required >
             </div>
             <div class="input-group d-flex mb-1">
                 <label class="d-flex align-item-center" for="">pass</label>
