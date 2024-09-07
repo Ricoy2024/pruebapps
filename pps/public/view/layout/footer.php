@@ -5,16 +5,20 @@
             <div class="text-center text-grey-500 mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita assumenda quas minima culpa eum nobis.</div>
             <ul class="mb-2 d-flex sistemap">
                 <li>
-                    <a class="text-white" href="login_cliente.php">login_cliente</a>
+                    <a class="text-white" href="login_cliente.php" >login_cliente</a>
                 </li>
                 <li>
-                    <a class="text-white" href="">shop</a>
+                    <a class="text-white" href="botonera_lateral.php">botonmera lateral</a>
                 </li>
                 <li>
                     <a class="text-white" href="">contact</a>
                 </li>
                 <li>
                     <a class="text-white" href="">about</a>
+                </li>
+
+                <li>
+                    <a class="text-white" href="nuevapag.php">boton alex</a>
                 </li>
             </ul>
             <small class="text-grey-500"> °Derechos reversados del lubricentro Vintaje 76 :)</small>

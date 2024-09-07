@@ -18,7 +18,7 @@
             <form  action="" id="form">
         <div class="input-group d-flex mb-1 justify-content-center">
             <label class="d-flex align-item-center" for="">Nombre</label>
-            <input class="form-control" id="nombre" type="text" placeholder="ingresa su nombre">
+            <input required class="form-control" id="nombre" type="text" placeholder="ingresa su nombre">
         </div>
         <div class="input-group d-flex mb-1 justify-content-center">
             <label class="d-flex align-item-center" for="">Apellido</label>

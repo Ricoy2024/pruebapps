@@ -1,7 +1,8 @@
-`php
+
 <?php 
 include('public/view/layout/header.php');
 session_start();
+
 ?>
 <br>
 <br>
@@ -11,7 +12,7 @@ session_start();
 <nav class="navbar navbar-dark bg-dark navbar-expand-md navbar-light bg-light fixed-top">
   <div class="text-white bg-success p-2">
     <?php
-    echo $_SESSION["nombre"];
+    echo $_SESSION['nombre'];
     ?>
   </div>
 
