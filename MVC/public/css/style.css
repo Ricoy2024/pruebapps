@@ -1,0 +1,374 @@
+/* Paleta de colores
+negro #000000
+azul #14213d
+naranja #fca311
+beige #e5e5e5
+blanco #ffffff */
+
+
+/* CSS GLOBAL */
+
+.background-c {
+    background: linear-gradient(90deg, rgb(20, 33, 61) 10%, rgb(28, 71, 92) 76%, rgb(14, 12, 51) 97%);
+}
+
+.input-margin {
+    margin-bottom: 10px;
+}
+
+.input-margin:hover {
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.input-shadow:hover {
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.button-input {
+    background-color: #fca311 !important;
+    color:#14213d !important;
+    font-weight: bold !important;
+    border:#14213d solid 1px !important;
+    width: 100% !important;
+}
+
+.button-input:hover {
+    background-color: #f5d29b !important;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.blue-text {
+    font-weight: 100 !important;
+    color: blue;
+}
+
+.blue-text:hover {
+    font-weight: 400 !important;
+    color: blue;
+}
+
+.align-center {
+    align-content: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.bg-title {
+    background: darkslateblue;
+    text-align: center;
+}
+
+.bg-footer {
+    background: linear-gradient(90deg, rgb(208, 207, 227) 0%, rgb(215, 226, 236) 50%, rgba(187, 198, 255, 0.71) 100%);
+}
+/* FIN CSS GLOBAL  */
+
+
+
+
+
+
+/* COMPONENTE INDEX.PHP */
+
+/* Header */
+
+.header-bc {
+    /* background-color: #fca311; */
+    /* background: linear-gradient(0deg, rgb(255, 119, 119) 0%, rgb(252, 163, 17) 100%); */
+    background: linear-gradient(0deg, rgb(238, 154, 64) 0%, rgb(227, 133, 64) 100%);
+}
+
+/* Buttons Header */
+
+.buttons-header {
+    border: 1px black solid;
+    margin: 2px 8px 2px 20px;
+    border-radius: 8px;
+    color: #14213d;
+    width: 125px;
+    text-align: center;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.buttons-header:hover {
+    background-color: #fccb7c;
+    transform: translate(0px, 2px);
+    -webkit-transform: translate(0px, 2px);
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.iron-gym-text {
+    font-family: Impact;
+    font-size: xx-large;
+    margin: 6px 20px 0px 15px;
+}
+
+.container-text-logo {
+    display: inline-flex;
+}
+
+/* Fin Buttons Header */
+
+/* Jumbotron Spinning */
+
+.spinning-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0 0 0 / 84%)), url(../images/Spinning.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.spinning-text {
+    color: white;
+    text-shadow: 2px 2px 5px #111111;
+}
+
+.spinning-button {
+    background-color: #fca311 !important;
+    color:#14213d;
+    font-weight: bold !important;
+    border:#14213d solid 1px !important;
+}
+
+.spinning-button:hover {
+    background-color: rgb(248, 181, 74);
+    transform: translate(0px, 2px);
+    -webkit-transform: translate(0px, 2px);
+    box-shadow: 1px 1px 1px 1px;
+}
+
+/* Fin Jumbotron Spinning */
+
+/* Carousel */
+
+.opacity-img {
+    opacity: .7;
+}
+
+.carousel-border-r {
+    border-radius: 8px;
+}
+
+li::marker{ 
+    font-size:0; 
+}
+
+.carousel-title {
+    text-shadow: 4px 4px 5px #111111;
+}
+
+.carousel-text {
+    backdrop-filter: brightness(0.5);
+    font-family: inherit;
+}
+
+.description-photo {
+    background: #1e1d1d;
+    opacity: 0.8;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Fin Carousel */
+
+/* FIN COMPONENTE INDEX.PHP */
+
+
+
+
+
+
+
+
+/* COMPONENTE LOGIN.PHP */
+
+.bg-login-image {
+    background-image: url(../images/GymLogin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.bg-loginadministrador-image {
+    background-image: url(../images/GymLogin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.espacioboton{
+    padding-top: 15px;
+}
+
+
+/* FIN COMPONENTE LOGIN.PHP */
+
+
+
+
+
+
+
+
+/* COMPONENTE REGISTER.PHP */
+
+.bg-register-image {
+    background-image: url(../images/Register.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+/* FIN COMPONENTE REGISTER.PHP */
+
+
+
+
+
+
+
+/* COMPONENTE ACTIVITIES.PHP */
+
+.title-activities {
+    color:white;
+    text-align: center;
+    font-family: serif;
+    margin: 12px !important;
+}
+
+.description {
+    font-size: larger;
+    text-align: center;
+}
+
+.trainer-pic {
+    width: 250px;
+    height: 250px !important;
+}
+
+
+/* FIN COMPONENTE ACTIVITIES.PHP */
+
+
+
+
+
+
+
+
+/* IMAGEN olvideContraseña */
+
+.image-olvideContraseña {
+    background-image: url(../images/olvideContraseña.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* FIN IMAGEN olvideContraseña */
+
+
+
+/* IMAGEN updatepass */
+
+.image-updatePass {
+    background-image: url(../images/updatePass.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    
+}
+
+/* FIN IMAGEN updatepass */
+
+
+/*menu de izquierda login admin*/
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #237c93; /* Add a green color to the "active/current" link */
+    color: white;
+  } 
+  
+  .fotocontact{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0 0 0 / 0%)), url(../images/contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    border: inset;
+    border-color: chocolate;
+  }
+
+  .espaciotexto{
+    padding: 10px;
+  }
+
+  .panelbotones{
+    display:flex;
+  }
+
+  .form-alta-prof {
+    width: 80% !important;
+  }
+
+  .form-alta-pd {
+    padding: 2px 25px 10px 25px;
+    padding-top: 30px;
+  }
+
+  .title-panel {
+    background: #3f5972; 
+    font-family: monospace;
+  }
+
+  .text-contact {
+    background: #1e1d1d;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: max-content;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+  .btn-edit {
+    width: 90px !important;
+    font-weight: bold !important;
+    border: 1px #999999 solid !important;
+  }
+
+  .text-center{
+    text-align: -webkit-center;
+  }
+
+  th, td {
+    border-bottom: grey solid 1px !important;
+    border-right: grey solid 1px !important;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .w-110 {
+    width: 110% !important;
+  }

@@ -1,0 +1,9 @@
+Usuario para ingresar como ADMIN :
+User: 11111111
+Pass: 12gym34
+
+Usuario para ingresar como SOCIO : 
+User: 20192930
+Pass: 123456
+
+.
