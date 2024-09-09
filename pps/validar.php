@@ -15,7 +15,7 @@ if ($filas) {
   $_SESSION["id"]=$consulta->id;
   $_SESSION["nombre"]=$consulta->nombre;
   $_SESSION["apellido"]=$consulta->apellido;
-  header("location: home.php");
+  header("location: tabla.php");
 } else {
   include("login_admin.php");
   
