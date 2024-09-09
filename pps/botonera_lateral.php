@@ -19,9 +19,9 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <a  href="">
-                        <span class="icon-menu"><ion-icon name="home-outline"></ion-icon> </span>
-                        <span class="text-menu">Home</span>
+                    <a  href="tabla.php">
+                        <span class="icon-menu"><ion-icon name="file-tray-full-outline"></ion-icon> </span>
+                        <span class="text-menu">Stock</span>
                     </a>
                 </li>
 
@@ -69,3 +69,5 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
+
+<?php include('public/view/layout/footer.php')?>

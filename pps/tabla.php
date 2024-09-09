@@ -12,6 +12,8 @@
     <title>datatables</title>
   </head>
   <body>
+
+  <div class="container d-flex flex-direcion-column">
     <h1 class="text-center">Tabla de Articulos</h1>
     <table id="example" class="display" style="width:100%">
         <thead>
@@ -151,6 +153,7 @@
 
         </tfoot>
     </table>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script>    
