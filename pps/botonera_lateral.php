@@ -26,28 +26,29 @@
                 </li>
 
                 <li>
-                    <a href="">
-                        <span class="icon-menu"><ion-icon name="person-outline"></ion-icon> </span>
-                        <span class="text-menu">About</span>
+                    <a href="registrarse_para_productos.php">
+                   
+                        <span class="icon-menu"><ion-icon name="add-circle-outline"></ion-icon> </span>
+                        <span class="text-menu">Agregar productos</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="index.php">
                         <span class="icon-menu"> <ion-icon name="call-outline"></ion-icon></span>
                         <span class="text-menu">Contact</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="index.php">
                         <span class="icon-menu"><ion-icon name="help-outline"></ion-icon> </span>
                         <span class="text-menu">Faq</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="index.php">
                         <span class="icon-menu"> <ion-icon name="bag-handle-outline"></ion-icon></span>
                         <span class="text-menu">Shop</span>
                     </a>
@@ -70,4 +71,3 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
 
-<?php include('public/view/layout/footer.php')?>

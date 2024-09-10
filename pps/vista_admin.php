@@ -1,4 +1,4 @@
-<?php include('public/view/layout/header.php')?>
+
 
 <?php include('botonera_lateral.php')?>
 

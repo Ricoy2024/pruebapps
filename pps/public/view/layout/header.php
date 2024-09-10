@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="imagen/oip.ico" type="image/x-icon">
     <!-- Es la imagen que muestra en la pestaña el navegador icono .-->
 
+  
 </head>
 <body class="bg-drak2">
     <header class="bg-dark">

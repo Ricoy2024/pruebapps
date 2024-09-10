@@ -6,12 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
     
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+   
 
     <title>datatables</title>
   </head>
-  <body>
+  <!--<body>-->
 
   <div class="container d-flex flex-direcion-column">
     <h1 class="text-center">Tabla de Articulos</h1>
@@ -154,8 +155,15 @@
         </tfoot>
     </table>
     </div>
+ 
+    <a href="botonera_lateral.php">
+    <button type="button">Atras</button>
+    </a>
+  
+
     <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+   
     <script>    
         $(document).ready(function() {
             $('#example').DataTable();
