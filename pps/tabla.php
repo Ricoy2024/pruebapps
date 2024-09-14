@@ -1,19 +1,8 @@
 <?php include('public/view/layout/header.php')?>
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-   
-
-    <title>datatables</title>
+<?php include('botonera_lateral.php')?>
   </head>
   <!--<body>-->
-
+    <section class="section-16">
   <div class="container d-flex flex-direcion-column">
     <h1 class="text-center">Tabla de Articulos</h1>
     <table id="example" class="display" style="width:100%">
@@ -155,14 +144,17 @@
         </tfoot>
     </table>
     </div>
- 
+    </section>
+    </div>
+    
     <a href="botonera_lateral.php">
     <button type="button">Atras</button>
     </a>
   
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
-    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+   <!-- comentoe sto ya lo pegue en el header porq en el footer no lo toma 
+     <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script> -->
    
     <script>    
         $(document).ready(function() {

@@ -28,21 +28,21 @@
   </div>
   <div class="carousel-inner ">
     <div class="carousel-item active">
-      <img src="caja-cambios.jpg" class="d-block w-90" alt="...">
+      <img src="public/imagen/caja-cambios.jpg" class="d-block w-90" >
       <div class="carousel-caption d-none d-md-block">
         <h5>Cambio de aceite y filtros</h5>
         <p>Productos de alta calidad, que maximizan el rendimiento de tu motor.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="imagenlubri2.jpg" class="d-block w-90" alt="...">
+      <img src="public/imagen/aceite_2.jpg" class="d-block w-90 " >
       <div class="carousel-caption d-none d-md-block">
         <h5>Nuestros Aceites</h5>
         <p>Los mejores aceites de todo zona sur!</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="aguas.jpg" class="d-block w-90" alt="...">
+      <img src="public/imagen/agua_refri.jpg" class="d-block w-90">
       <div class="carousel-caption d-none d-md-block">
         <h5>Líquidos y Refrigerantes</h5>
         <p>Control y reemplazo de líquidos y refrigerantes para garantizar una temperatura óptima del motor.</p>

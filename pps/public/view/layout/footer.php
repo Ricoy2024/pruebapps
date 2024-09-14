@@ -8,20 +8,20 @@
             
             <ul class="mb-2 d-flex sistemap">
                 <li>
-                    <a class="text-white" href="login_cliente.php" >login_cliente</a>
+                    <a class="text-white" href="" >.</a>
                 </li>
                 <li>
-                    <a class="text-white" href="botonera_lateral.php">botonmera lateral</a>
+                    <a class="text-white" href="">.</a>
                 </li>
                 <li>
-                    <a class="text-white" href="">contact</a>
+                    <a class="text-white" href="">.</a>
                 </li>
                 <li>
-                    <a class="text-white" href="">about</a>
+                    <a class="text-white" href="">.</a>
                 </li>
 
                 <li>
-                    <a class="text-white" href="nuevapag.php">boton alex</a>
+                    <a class="text-white" href="">.</a>
                 </li>
             </ul>
             
@@ -33,4 +33,8 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <!--</body>    creo q esta de mas ver!!!-->
+<!-- de la botonera lateral-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </html>

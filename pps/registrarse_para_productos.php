@@ -1,11 +1,5 @@
 <?php include('public/view/layout/header.php')?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD</title>
-</head>
+<?php include('botonera_lateral.php')?>
 <body>
     <div class="container d-flex flex-direcion-column">
         <h1 class="text-center">Registrese para ser cliente de Lubricentro Vintaje 76</h1>
@@ -64,7 +58,7 @@
                 
        </div>
     </div>
-
+    </div>
     
     <a href="botonera_lateral.php">
     <button type="button">Atras</button>
