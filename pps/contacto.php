@@ -33,7 +33,8 @@
               <h4 class="text-center" href="#" >Abierto de: Lunes a Viernes 9:00 a 12:00 y 14:30 a 18:00 - Sabado 9:00 a 12:00</h4>
 
               <div >
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26203.06151752438!2d-58.50810682374381!3d-34.82146949548259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd167714b04d7%3A0xbce04eb8995b48fa!2sGral.%20Jose%20Maria%20Paz%20468%2C%20B1842BAJ%20Monte%20Grande%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1726068891298!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.6323913610763!2d-58.43533832439661!3d-34.76485197289685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd26eedb2a533%3A0x9043f79f2558a2e8!2sLubricantes%20Vintage%2076.!5e0!3m2!1ses-419!2sar!4v1726277364438!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             
                 </div>
 
               <br>

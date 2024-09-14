@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lubricentro Vintaje 76</title>
+    <title>Lubricentro Vintage 76</title>
     <link rel="stylesheet" href="./style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +33,7 @@
     <header class="bg-dark">
     <div class="container d-flex justify-content-between align-center">
         <a class="logo d-flex align-center" href="" >
-         Vintaje
+         Vintage
          <img class="w-60" src="./public/imagen/logo_vintaje76.png" alt="">
         </a>
         <nav>

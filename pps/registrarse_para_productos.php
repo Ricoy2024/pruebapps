@@ -72,3 +72,5 @@
     
 </body>
 </html>
+
+<?php include('public/view/layout/footer.php')?>

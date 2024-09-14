@@ -19,11 +19,11 @@
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.css"
   rel="stylesheet" -->
-/>
+
     <title>Document</title>
  
 </head>
-<body>
+<body >
 <section class="section-13">
 <section class="vh-60"> 
   <div class="container-fluid">
@@ -32,15 +32,15 @@
 
         <div class="px-5 ms-xl-4">
        
-          <i class="fas fa-crow fa-2x me-3 pt-5 mt-xl-4 " style="color: #709085;"></i> 
+          <i class="fas fa-user-check fa-2x me-3 pt-5 mt-xl-4 " style="color: #709085;"></i> 
           <span class="h1 fw-bold mb-0 text-white">Vintage 76</span>
         </div>
 
         <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
 
-          <form style="width: 23rem;">
+          <form action="validar.php" method="post" style="width: 23rem;">
 
-            <h3 class="text-white fw-normal mb-3 pb-3" style="letter-spacing: 1px;">°</h3>
+            <h3 class="text-white fw-normal mb-3 pb-3" style="letter-spacing: 1px;">.</h3>
 
             <div data-mdb-input-init class="form-outline mb-4">
               <input type="text" id="form2Example18" class="form-control form-control-lg" />
