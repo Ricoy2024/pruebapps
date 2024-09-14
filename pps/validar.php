@@ -15,9 +15,9 @@ if ($filas) {
   $_SESSION["id"]=$consulta->id;
   $_SESSION["nombre"]=$consulta->nombre;
   $_SESSION["apellido"]=$consulta->apellido;
-  header("location: vista_admin.php");
+  header("location: botonera_lateral2.php");
 } else {
-  include("login_admin.php");
+  include("nuevapaglogin.php");
   
 ?>
 <br>

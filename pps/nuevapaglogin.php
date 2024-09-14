@@ -43,20 +43,20 @@
             <h3 class="text-white fw-normal mb-3 pb-3" style="letter-spacing: 1px;">.</h3>
 
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="text" id="form2Example18" class="form-control form-control-lg" />
+              <input type="text" name="usuario" id="form2Example18" class="form-control form-control-lg" />
               <label class="form-label" for="form2Example18">Usuario</label>
             </div>
 
             <div data-mdb-input-init class="form-outline mb-4">
-              <input type="password" id="form2Example28" class="form-control form-control-lg" />
+              <input type="password" name="dni" id="form2Example28" class="form-control form-control-lg" />
               <label class="form-label" for="form2Example28">Password</label>
             </div>
 
             <div class="pt-1 mb-4">
-              <button data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-lg btn-block" type="button">Ingresar</button>
+              <button data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-lg btn-block" type="submit">Ingresar</button>
             </div>
 
-            <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Olvidaste la contraseña?</a></p>
+            <p class="small mb-5 pb-lg-2"><a class="text-muted" href="registrarse.php">Olvidaste la contraseña?</a></p>
             <p class="text-white">No tenes usuario?  <a href="#!" class="link-info">Registrate aca!</a></p>
 
           </form>
