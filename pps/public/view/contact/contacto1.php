@@ -1,12 +1,6 @@
-<?php include('public/view/layout/header.php')?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
-</head>
+<?php include('../layout/header.php')?>
+<link rel="stylesheet" href="../../style.css">
+<link rel="shortcut icon" href="../../imagen/oip.ico" type="image/x-icon">
 <body>
         <br>
         <div class="container">
@@ -48,5 +42,5 @@
 
 
 
-<?php include('public/view/layout/footer.php')?>
+<?php include('../layout/footer.php')?>
 

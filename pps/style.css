@@ -99,7 +99,7 @@ position: relative;
         
         }
         .section-5{
-            height: 350px;
+            height: 550px;
             opacity: 1;
             background-image:url(./public/imagen/lubricentro_head.jpg);
             background-size: cover;
@@ -107,6 +107,43 @@ position: relative;
             position: relative;
             
             }
+
+            .section-13{
+                height: 550px;
+                width: 100%;
+                max-width: 1200px;
+                margin-left: 10rem;
+                margin-right: 10rem;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                opacity: 1.4;
+                background-image:url(./public/imagen/imagen.jpg);
+              
+                background-size: cover;
+                background-position: right center;
+                position: relative;
+                
+                
+                }
+                
+                .section-15{
+                    height: 550px;
+                    width: 100%;
+                    max-width: 1200px;
+                    margin-left: 10rem;
+                    margin-right: 10rem;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    opacity: 1.4;
+                    background-image:url(./public/imagen/imagen.jpg);
+                  
+                    background-size: cover;
+                    background-position: right center;
+                    position: relative;
+                    
+                    
+                    }
+                    
 
 .content-1{
     height: 100%;
@@ -295,6 +332,9 @@ label{
     width: 100% !important;
 }
 
+.w-75{
+    width: 75% !important;
+}
 table{
     width: 100%;
     border: 1px solid #0f0d0d;
@@ -340,3 +380,25 @@ body{
     margin-bottom: 1.5rem;
  }
 
+ .w-90{
+    width: 95% ;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.bg-image-vertical {
+    position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
+    
+   /* @media (min-width: 1025px) {
+    .h-custom-2 {
+    height: 100%;
+    }
+    }*/

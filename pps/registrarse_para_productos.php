@@ -64,6 +64,8 @@
                 
        </div>
     </div>
+
+    
     <a href="botonera_lateral.php">
     <button type="button">Atras</button>
     </a>
