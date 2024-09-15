@@ -15,7 +15,7 @@
             <div class="text-center text-grey-500 mb-1 px-10 px-md-5 px-md-0 ">Lubricentro Vintaje 76, Lomas de Zamora</div>
             <h3 class="text-center mb-3">Con más de 20 años de experiencia en la industria, en Lubricentro Vintaje 76 somos expertos en ofrecer productos y servicios de alta calidad para el cuidado y mantenimiento de vehículos en Lomas de Zamora</h3>
                 <div class="d-flex">
-                <img src="4.jpeg"  alt="">
+                <img src="public/imagen/dario.jpeg"  alt="">
                
                 <h1>somos una empresa familiar , que siempre soño con tener su propio emprendimiento, despues de muchos años pudimos lograr lo que nos</h1>
                 </div>
