@@ -17,6 +17,9 @@ if ($filas) {
   $_SESSION["apellido"]=$consulta->apellido;
   header("location: botonera_lateral2.php");
 } else {
+  echo "<script> alert('contraseña incorrecta ');
+  location.href='nuevapaglogin.php';
+  </script>";
   include("nuevapaglogin.php");
   
 ?>

@@ -57,7 +57,7 @@
             </div>
 
             <p class="small mb-5 pb-lg-2"><a class="text-muted" href="registrarse.php">Olvidaste la contraseña?</a></p>
-            <p class="text-white">No tenes usuario?  <a href="#!" class="link-info">Registrate aca!</a></p>
+            <p class="text-white">No tenes usuario?  <a href="registrarse.php" class="link-info">Registrate aca!</a></p>
 
           </form>
 
