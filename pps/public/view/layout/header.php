@@ -47,6 +47,11 @@
                     <a href="contacto.php" class="nav-item">Contacto</a>
                     
                 </li>
+
+                <li>
+                    <a href="mail_consulta.php" class="nav-item">Consulta</a>
+                    
+                </li>
             </ul>
         </nav>
 

@@ -79,6 +79,16 @@ background-position: center;
 position: relative;
 
 }
+.section-1b{
+    height: 500px;
+    background-image:url(./public/imagen/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+    }
 .section-3{
     height: 550px;
     opacity: 1;
