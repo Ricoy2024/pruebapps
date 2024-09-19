@@ -56,14 +56,6 @@
                     <a href="mail_consulta.php" class="nav-item">Consulta</a>
                     
                 </li>
-
-
-                <li>
-                    <a href="logout.php" class="nav-item">Cerra session</a>
-                    
-                </li>
-
-
             </ul>
         </nav>
 

@@ -3,12 +3,6 @@
 include('public/view/layout/header.php');
 session_start();
 
-// Verifica si el usuario  inicio sesión
-if (!isset($_SESSION['id'])) {
-    header("Location: login_admin.php");
-    exit(); 
-}
-
 ?>
 <br>
 <br>

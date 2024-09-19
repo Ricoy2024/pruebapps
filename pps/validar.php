@@ -1,34 +1,39 @@
 <?php
+session_start(); 
+
+// trae datos del formulario
 $usuario = $_POST['usuario'];
 $dni = $_POST['dni'];
-session_start();
-$_SESSION['usuario'] = $usuario;
 
+// Conexión a la base de datos
 $conexion = mysqli_connect("localhost", "root", "", "pps");
 
-$consulta = "SELECT * FROM tb_admin where usuario='$usuario' and dni='$dni'";
-$resultado = mysqli_query($conexion, $consulta);
-
-$filas = mysqli_num_rows($resultado);
-
-if ($filas) {
-  $_SESSION["id"]=$consulta->id;
-  $_SESSION["nombre"]=$consulta->nombre;
-  $_SESSION["apellido"]=$consulta->apellido;
-  header("location: botonera_lateral2.php");
-} else {
-  echo "<script> alert('contraseña incorrecta ');
-  location.href='nuevapaglogin.php';
-  </script>";
-  include("nuevapaglogin.php");
-  
-?>
-<br>
-
-  <h3 class="bad text-center">ERROR EN LA AUTENTIFICACION POR FAVOR VUELVA A INTENTARLO</h3>
-
-<?php
+// Verifica la conexión
+if (!$conexion) {
+    die("Conexión fallida: " . mysqli_connect_error());
 }
-mysqli_free_result($resultado);
+
+// evita inyección SQL
+$stmt = $conexion->prepare("SELECT * FROM tb_admin WHERE usuario=? AND dni=?");
+$stmt->bind_param("ss", $usuario, $dni);
+$stmt->execute();
+$resultado = $stmt->get_result();
+$user = $resultado->fetch_assoc();
+
+// usuario existe?
+if ($user) {
+    // Inicia sesión y guarda los datos del usuario
+    $_SESSION["id"] = $user['id'];
+    $_SESSION["nombre"] = $user['nombre'];
+    $_SESSION["apellido"] = $user['apellido'];
+    $_SESSION['usuario'] = $usuario; // Guarda el usuario en la sesión
+    header("Location: botonera_lateral2.php");
+    exit();
+} else {
+    echo "<script>alert('Contraseña incorrecta'); location.href='nuevapaglogin.php';</script>";
+}
+
+// Cierra la declaración y la conexión
+$stmt->close();
 mysqli_close($conexion);
 ?>

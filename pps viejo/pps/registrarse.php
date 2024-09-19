@@ -20,7 +20,7 @@ if (isset($_POST["registrar"])) {
     if ($filas > 0) {
         echo "<script> 
         alert ('el mail ya esta registrado')
-        window.location = 'registrarse.php';
+        window.location = 'index.php';
         </script>";
     } else {
         $sqlusuario = "INSERT INTO tb_cliente (nombre,apellido,telefono,mail,usuario,pass) VALUES ('$nombre','$apellido','$telefono','$mail','$usuario','$password_encriptada')";
@@ -28,12 +28,12 @@ if (isset($_POST["registrar"])) {
         if ($conexion->query($sqlusuario) === TRUE) {
             echo "<script>
             alert('registro exitoso');
-            window.location.href = 'index.php'; 
+            window.location.href = 'index.php';
             </script>";
         } else {
             echo "<script>
             alert('error al registrarse');
-            window.location.href = 'registrarse.php';
+            window.location.href = 'index.php';
             </script>";
         }
     }
