@@ -3,7 +3,7 @@
 <?php include('botonera_lateral.php')?>
 
 
-
+prueba
 
 
 
