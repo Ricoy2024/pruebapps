@@ -24,7 +24,7 @@
                     <a class="text-white" href="">.</a>
                 </li>
             </ul>
-            
+            .
             <small class="text-grey-500"> °Derechos reversados del lubricentro Vintaje 76 :)</small>
             </div>
 
