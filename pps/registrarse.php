@@ -4,35 +4,37 @@ include 'public/view/layout/header.php';
 
 if (isset($_POST["registrar"])) {
     global $conexion;
-    
+
     $nombre = mysqli_real_escape_string($conexion, $_POST["nombre"]);
     $apellido = mysqli_real_escape_string($conexion, $_POST["apellido"]);
     $telefono = mysqli_real_escape_string($conexion, $_POST["telefono"]);
     $mail = mysqli_real_escape_string($conexion, $_POST["mail"]);
     $usuario = mysqli_real_escape_string($conexion, $_POST["usuario"]);
     $pass = mysqli_real_escape_string($conexion, $_POST["pass"]);
-    $password_encriptada = sha1($pass);
     
-    $sqluser = "SELECT id FROM tb_cliente WHERE mail = '$mail' ";
+    // Cambiar a password_hash
+    $password_encriptada = password_hash($pass, PASSWORD_DEFAULT);
+    
+    $sqluser = "SELECT id FROM tb_cliente WHERE mail = '$mail'";
     $resultadouser = $conexion->query($sqluser);    
     $filas = $resultadouser->num_rows;
     
     if ($filas > 0) {
         echo "<script> 
-        alert ('el mail ya esta registrado')
+        alert('El email ya está registrado');
         window.location = 'registrarse.php';
         </script>";
     } else {
-        $sqlusuario = "INSERT INTO tb_cliente (nombre,apellido,telefono,mail,usuario,pass) VALUES ('$nombre','$apellido','$telefono','$mail','$usuario','$password_encriptada')";
+        $sqlusuario = "INSERT INTO tb_cliente (nombre, apellido, telefono, mail, usuario, pass) VALUES ('$nombre', '$apellido', '$telefono', '$mail', '$usuario', '$password_encriptada')";
         
         if ($conexion->query($sqlusuario) === TRUE) {
             echo "<script>
-            alert('registro exitoso');
+            alert('Registro exitoso');
             window.location.href = 'index.php'; 
             </script>";
         } else {
             echo "<script>
-            alert('error al registrarse');
+            alert('Error al registrarse');
             window.location.href = 'registrarse.php';
             </script>";
         }
